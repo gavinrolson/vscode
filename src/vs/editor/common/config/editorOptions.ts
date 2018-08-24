@@ -1726,7 +1726,7 @@ export class EditorOptionsValidator {
 		} else {
 			autoClosingBrackets = _stringSet<EditorAutoClosingStrategy>(opts.autoClosingBrackets, defaults.autoClosingBrackets, ['always', 'languageDefined', 'beforeWhitespace', 'never']);
 			autoClosingQuotes = _stringSet<EditorAutoClosingStrategy>(opts.autoClosingQuotes, defaults.autoClosingQuotes, ['always', 'languageDefined', 'beforeWhitespace', 'never']);
-			autoWrapping = _stringSet<EditorAutoWrappingStrategy>(opts.autoWrapping, defaults.autoWrapping, ['always', 'brackets', 'quotes', 'never'], );
+			autoWrapping = _stringSet<EditorAutoWrappingStrategy>(opts.autoWrapping, defaults.autoWrapping, ['always', 'brackets', 'quotes', 'never']);
 		}
 
 		return {
